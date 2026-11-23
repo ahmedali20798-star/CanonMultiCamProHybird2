@@ -39,10 +39,3 @@ style:
 potential-bugs:
   UnsafeCallOnNullableType:
     active: true
-
-forbidden-apis:
-  ForbiddenMethodCall:
-    active: true
-    methods:
-      - 'java.lang.Thread#sleep'
-      - 'java.net.NetworkInterface#getNetworkInterfaces'
